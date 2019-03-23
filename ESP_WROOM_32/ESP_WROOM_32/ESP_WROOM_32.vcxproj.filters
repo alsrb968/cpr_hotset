@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ESP_WROOM_32.ino" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="__vm\.ESP_WROOM_32.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\arduino-esp32-master\arduino-esp32-master\libraries\WiFi\src\ETH.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\arduino-esp32-master\arduino-esp32-master\libraries\WiFi\src\WiFi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\arduino-esp32-master\arduino-esp32-master\libraries\WiFi\src\WiFiAP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\arduino-esp32-master\arduino-esp32-master\libraries\WiFi\src\WiFiClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\arduino-esp32-master\arduino-esp32-master\libraries\WiFi\src\WiFiGeneric.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\arduino-esp32-master\arduino-esp32-master\libraries\WiFi\src\WiFiMulti.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\arduino-esp32-master\arduino-esp32-master\libraries\WiFi\src\WiFiScan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\arduino-esp32-master\arduino-esp32-master\libraries\WiFi\src\WiFiServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\arduino-esp32-master\arduino-esp32-master\libraries\WiFi\src\WiFiSTA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\arduino-esp32-master\arduino-esp32-master\libraries\WiFi\src\WiFiType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\arduino-esp32-master\arduino-esp32-master\libraries\WiFi\src\WiFiUdp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\arduino-esp32-master\arduino-esp32-master\libraries\WiFi\src\WiFiUdp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\arduino-esp32-master\arduino-esp32-master\libraries\WiFi\src\ETH.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\arduino-esp32-master\arduino-esp32-master\libraries\WiFi\src\WiFi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\arduino-esp32-master\arduino-esp32-master\libraries\WiFi\src\WiFiAP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\arduino-esp32-master\arduino-esp32-master\libraries\WiFi\src\WiFiClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\arduino-esp32-master\arduino-esp32-master\libraries\WiFi\src\WiFiGeneric.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\arduino-esp32-master\arduino-esp32-master\libraries\WiFi\src\WiFiMulti.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\arduino-esp32-master\arduino-esp32-master\libraries\WiFi\src\WiFiScan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\arduino-esp32-master\arduino-esp32-master\libraries\WiFi\src\WiFiServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\arduino-esp32-master\arduino-esp32-master\libraries\WiFi\src\WiFiSTA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
